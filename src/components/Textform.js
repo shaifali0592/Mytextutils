@@ -125,7 +125,7 @@ const handleonchange = (event) => {
 </div>
 <div className='container'>
   <h2 style={{color: props.mode === 'dark' ? "white" : "#333"}}>Preview</h2>
-  <p style={{color: props.mode === 'dark' ? "white" : "#333"}}>{text.length > 0 ? text : "Nothing to Preview"}</p>
+  <p style={{color: props.mode === 'dark' ? "white" : "#333"}}>{text.length > 0 ? text : "Nothing to Preview....."}</p>
 </div>
 </div>   
  )
